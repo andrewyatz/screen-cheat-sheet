@@ -17,19 +17,19 @@ The keyboard shortcuts are sorted alphabetically by the 2nd keyboard key.
 
 You should at least know the following keyboard shortcuts:
 
-    * Ctrl-a c       - Create a new window with a shell and switch to it.
-    * Ctrl-a Ctrl-a  - Switch between current and previous window.
-    * Ctrl-a k       - Kill the current window.
-    * Ctrl-a n       - Switch to the next window.
-    * Ctrl-a p       - Switch to the previous window.
-    * Ctrl-a ESC     - Enter scrollback mode. Hit ESC again to quit.
-    * Ctrl-a Ctrl-d  - Detach the window. To attach again, type `screen -r` in
+    * Ctrl-\ c       - Create a new window with a shell and switch to it.
+    * Ctrl-\ Ctrl-\  - Switch between current and previous window.
+    * Ctrl-\ k       - Kill the current window.
+    * Ctrl-\ n       - Switch to the next window.
+    * Ctrl-\ p       - Switch to the previous window.
+    * Ctrl-\ ESC     - Enter scrollback mode. Hit ESC again to quit.
+    * Ctrl-\ Ctrl-d  - Detach the window. To attach again, type `screen -r` in
                        the shell.
 
-Syntax "Ctrl-a X" means "first press Ctrl-a, then release these keys and press
+Syntax "Ctrl-\ X" means "first press Ctrl-\, then release these keys and press
 key X".
 
-Syntax "Ctrl-a Ctrl-X" means "press Ctrl-a, then not releasing Ctrl key, press
+Syntax "Ctrl-\ Ctrl-X" means "press Ctrl-\, then not releasing Ctrl key, press
 the X key".
 
 
@@ -41,4 +41,3 @@ Have fun and be more productive on the command line!
 Sincerely,
 Peteris Krumins
 http://www.catonmat.net
-
